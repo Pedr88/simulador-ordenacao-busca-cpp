@@ -1,0 +1,23 @@
+# Ignore arquivos de build
+/build/
+*.o
+*.obj
+*.exe
+*.out
+*.log
+
+# Ignore arquivos de configuração do Visual Studio Code
+.vscode/
+
+# Ignore arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Ignore arquivos de configuração do CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Ignore arquivos de configuração do Make
+*.d
