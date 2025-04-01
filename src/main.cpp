@@ -1,7 +1,7 @@
 #include <iostream>
-#include "ordenacao.h"
-#include "utils.h"
-#include "busca.h"
+#include "../include/ordenacao.h"
+#include "../include/utils.h"
+#include "../include/busca.h"
 
 using namespace std;
 

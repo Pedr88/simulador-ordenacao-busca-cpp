@@ -1,6 +1,3 @@
-#ifndef UTILS_H
-#define UTILS_H
+#pragma once
 
 void benchmarkSortingAlgorithms();
-
-#endif

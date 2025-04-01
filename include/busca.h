@@ -1,6 +1,3 @@
-#ifndef BUSCA_H
-#define BUSCA_H
+#pragma once
 
 void benchmarkSearchingAlgorithms();
-
-#endif

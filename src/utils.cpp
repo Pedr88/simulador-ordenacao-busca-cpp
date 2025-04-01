@@ -1,7 +1,7 @@
 #include <iostream>
 #include <chrono>
-#include "ordenacao.h"
-#include "utils.h"
+#include "../include/ordenacao.h"
+#include "../include/utils.h"
 
 using namespace std;
 using namespace std::chrono;

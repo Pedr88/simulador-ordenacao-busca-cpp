@@ -1,4 +1,4 @@
-#include "ordenacao.h"
+#include "../include/ordenacao.h"
 #include <iostream>
 
 int partition(int arr[], int low, int high) {
