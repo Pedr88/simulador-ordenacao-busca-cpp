@@ -24,29 +24,11 @@ Este projeto implementa e compara diferentes algoritmos de ordenação e busca e
 
 ## Como Compilar
 
-### Usando CMake
+1. Navegue até o diretório raiz do projeto.
 
-1. Crie um diretório `build` e navegue até ele:
+2. Compile os arquivos `.cpp` com o compilador `g++`:
     ```sh
-    mkdir build
-    cd build
-    ```
-
-2. Gere os arquivos de build com CMake:
-    ```sh
-    cmake ..
-    ```
-
-3. Compile o projeto:
-    ```sh
-    make
-    ```
-
-### Usando Makefile
-
-1. Compile o projeto:
-    ```sh
-    make
+    g++ -o main src/*.cpp
     ```
 
 ## Como Executar
