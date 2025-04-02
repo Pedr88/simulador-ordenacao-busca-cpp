@@ -6,8 +6,8 @@ Projeto que implementa e compara diferentes algoritmos de ordenação e busca em
 
 ### Instalação
 ```bash
-git clone https://github.com/Pedr88/SortingSearchSimulator
-cd SortingSearchSimulator
+git clone https://github.com/Pedr88/simulador-ordenacao-busca-cpp
+cd simulador-ordenacao-busca-cpp
 ```
 
 ### Compilação e Execução
