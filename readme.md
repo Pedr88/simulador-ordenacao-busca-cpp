@@ -1,47 +1,49 @@
-# ⚡ Simulador de Ordenação e Busca em C++
+# ⚡ Sorting and Search Simulator in C++
 
-Projeto que implementa e compara diferentes algoritmos de ordenação e busca em C++.
+Project that implements and compares different sorting and search algorithms in C++.
 
-## 🚀 Como Usar
+## 🚀 How to Use
 
-### Instalação
+### Installation
 ```bash
 git clone https://github.com/Pedr88/simulador-ordenacao-busca-cpp
 cd simulador-ordenacao-busca-cpp
 ```
 
-### Compilação e Execução
+### Compilation and Execution
 ```bash
-# Compilar o código
+# Compile the code
 g++ -o main src/*.cpp
 
-# Executar o programa
+# Run the program
 ./main
 ```
 
-## ⚙️ Algoritmos Implementados
+## ⚙️ Implemented Algorithms
 
-### 📌 Ordenação
+### 📌 Sorting
 - **Bubble Sort**
 - **Quick Sort**
 - **Merge Sort**
 
-### 🔎 Busca
+### 🔎 Search
 - **Linear Search**
 - **Binary Search**
 
 ## 📊 Benchmarking
 
-O programa inclui uma função de benchmarking que mede o tempo de execução dos algoritmos.
+The program includes a benchmarking function that measures the execution time of the algorithms.
 
-### Exemplo de Saída
+### Example Output
 ```plaintext
-Linear Search levou 12345 milissegundos e encontrou o valor no índice 3 até o índice 3, e esse valor se repetiu 1 vez.
-Binary Search levou 6789 milissegundos e encontrou o valor no índice 2 até o índice 2, e esse valor se repetiu 1 vez.
+Linear Search took 12345 milliseconds and found the value at index 3 to index 3, and this value was repeated 1 time.
+Binary Search took 6789 milliseconds and found the value at index 2 to index 2, and this value was repeated 1 time.
 ```
 
-## 📂 Estrutura do Projeto
-- **`include/`**: Arquivos de cabeçalho (.h)
-- **`src/`**: Arquivos de implementação (.cpp)
-- **`.vscode/`**: Configurações do Visual Studio Code
-- **`README.md`**: Documentação do projeto
+## 📂 Project Structure
+- **`include/`**: Header files (.h)
+- **`src/`**: Implementation files (.cpp)
+- **`.vscode/`**: Visual Studio Code settings
+- **`README.md`**: Project documentation
+
+---
