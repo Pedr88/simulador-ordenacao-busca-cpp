@@ -1,53 +1,47 @@
-# Simulador de Ordenação e Busca em C++
+# ⚡ Simulador de Ordenação e Busca em C++
 
-Este projeto implementa e compara diferentes algoritmos de ordenação e busca em C++.
+Projeto que implementa e compara diferentes algoritmos de ordenação e busca em C++.
 
-## Estrutura do Projeto
+## 🚀 Como Usar
 
-- `include/`: Contém os arquivos de cabeçalho (.h).
-- `src/`: Contém os arquivos de implementação (.cpp).
-- `.vscode/`: Contém as configurações do Visual Studio Code.
-- `README.md`: Documentação do projeto.
+### Instalação
+```bash
+git clone https://github.com/Pedr88/SortingSearchSimulator
+cd SortingSearchSimulator
+```
 
-## Algoritmos Implementados
+### Compilação e Execução
+```bash
+# Compilar o código
+g++ -o main src/*.cpp
 
-### Ordenação
+# Executar o programa
+./main
+```
 
-- Bubble Sort
-- Quick Sort
-- Merge Sort
+## ⚙️ Algoritmos Implementados
 
-### Busca
+### 📌 Ordenação
+- **Bubble Sort**
+- **Quick Sort**
+- **Merge Sort**
 
-- Linear Search
-- Binary Search
+### 🔎 Busca
+- **Linear Search**
+- **Binary Search**
 
-## Como Compilar
+## 📊 Benchmarking
 
-1. Navegue até o diretório raiz do projeto.
-
-2. Compile os arquivos `.cpp` com o compilador `g++`:
-    ```sh
-    g++ -o main src/*.cpp
-    ```
-
-## Como Executar
-
-### Executar o Programa Principal
-
-1. Navegue até o diretório `build` (se estiver usando CMake) ou o diretório raiz do projeto (se estiver usando Makefile).
-
-2. Execute o programa principal:
-    ```sh
-    ./main
-    ```
-
-## Benchmarking
-
-O programa principal inclui uma função de benchmarking que mede o tempo de execução dos algoritmos de busca. Os resultados são exibidos no console.
+O programa inclui uma função de benchmarking que mede o tempo de execução dos algoritmos.
 
 ### Exemplo de Saída
-
 ```plaintext
-Linear Search levou 12345 milissegundos e encontrou o valor no indice 3 ate o indice 3, e esse valor se repetiu 1 vezes.
-Binary Search levou 6789 milisegundos e encontrou o valor no indice 2 ate o indice 2, e esse valor se repetiu 1 vezes.
+Linear Search levou 12345 milissegundos e encontrou o valor no índice 3 até o índice 3, e esse valor se repetiu 1 vez.
+Binary Search levou 6789 milissegundos e encontrou o valor no índice 2 até o índice 2, e esse valor se repetiu 1 vez.
+```
+
+## 📂 Estrutura do Projeto
+- **`include/`**: Arquivos de cabeçalho (.h)
+- **`src/`**: Arquivos de implementação (.cpp)
+- **`.vscode/`**: Configurações do Visual Studio Code
+- **`README.md`**: Documentação do projeto
